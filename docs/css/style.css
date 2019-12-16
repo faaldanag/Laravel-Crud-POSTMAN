@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-size: 15px;
+    font-family:'Montserrat', sans-serif,arial;
+    background-color: #B2C7DB;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.navbar{
+    width: 1000px;
+
+}
+
+.navbar ul{
+    background:black;  
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.navbar li{
+  
+    list-style: none;
+    width: 100%;
+}
+
+.navbar li a{
+    width: 100%;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 1rem;
+    transition-duration: 0.9s;
+}
+.navbar li a:hover{
+   
+    background: yellowgreen;
+    font-size: 1.5rem;
+    transition-duration: 0.5s;
+    
+}
+
+
+.perfil{
+    background-color: #E7E2E1;
+    width: 40%;
+   
+    float: left;
+    border-radius: 10%;
+    padding: 20px;
+    
+    margin-top: 30px;
+   
+    
+}
+
+.imagen{
+    text-align: center;
+  
+} 
+
+.img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+
+}
+
+.texto{
+    padding: 20px;
+    text-align: center;
+}
+
+.endpoint{
+    margin-top: 40px;
+    text-align: center;
+}
+.tituloh2{
+    margin-bottom: 40px;
+}
+
+.endpoint img{
+    width: 1000px;
+    
+}
+.endpoint video{
+    width: 1000px;
+}
+
+.videos{
+    width: 1000px;
+}
+.cuadro{
+    height: 280px;
+    width: 280px;
+  
+    float: left;
+    margin: 20px;
+}
+
+.video1{
+ 
+    height: 280px;
+    width: 280px;
+    text-align: center;
+    float: left;
+    margin: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+h2:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+}
